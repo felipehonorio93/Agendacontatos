@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaContatos.Mvc", "AgendaContatos.Mvc\AgendaContatos.Mvc.csproj", "{23FFFE94-4671-4975-80AB-62FD0565EDD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaContatos.Data", "AgendaContatos.Data\AgendaContatos.Data.csproj", "{D058B704-BCE6-4D49-B876-31B76F7349F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Camada de Apresentação", "1- Camada de Apresentação", "{6E44E430-2B01-4639-B11E-7CF212BB658D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Camada Acesso a Dados", "2- Camada Acesso a Dados", "{8BB1C548-B38F-4A4F-AA88-8183791F74E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16D28AC3-615E-47CE-8283-E4C675030DE5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Camada de Envio de Mensagens", "3- Camada de Envio de Mensagens", "{46F47B77-7A57-4884-A907-9F86DA03F6FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaContatos.Messages", "AgendaContatos.Messages\AgendaContatos.Messages.csproj", "{651A58E2-D1CD-408D-A6C4-12E5543B1689}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Camada de Relatórios", "4 - Camada de Relatórios", "{D3FDD465-849C-4654-8643-24BA900D15F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaContatos.Reports", "AgendaContatos.Reports\AgendaContatos.Reports.csproj", "{325E1B1A-9A58-452F-87E2-62C934376644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23FFFE94-4671-4975-80AB-62FD0565EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FFFE94-4671-4975-80AB-62FD0565EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FFFE94-4671-4975-80AB-62FD0565EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FFFE94-4671-4975-80AB-62FD0565EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D058B704-BCE6-4D49-B876-31B76F7349F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D058B704-BCE6-4D49-B876-31B76F7349F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D058B704-BCE6-4D49-B876-31B76F7349F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D058B704-BCE6-4D49-B876-31B76F7349F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{651A58E2-D1CD-408D-A6C4-12E5543B1689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651A58E2-D1CD-408D-A6C4-12E5543B1689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651A58E2-D1CD-408D-A6C4-12E5543B1689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651A58E2-D1CD-408D-A6C4-12E5543B1689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325E1B1A-9A58-452F-87E2-62C934376644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325E1B1A-9A58-452F-87E2-62C934376644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325E1B1A-9A58-452F-87E2-62C934376644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325E1B1A-9A58-452F-87E2-62C934376644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23FFFE94-4671-4975-80AB-62FD0565EDD4} = {6E44E430-2B01-4639-B11E-7CF212BB658D}
+		{D058B704-BCE6-4D49-B876-31B76F7349F3} = {8BB1C548-B38F-4A4F-AA88-8183791F74E1}
+		{651A58E2-D1CD-408D-A6C4-12E5543B1689} = {46F47B77-7A57-4884-A907-9F86DA03F6FD}
+		{325E1B1A-9A58-452F-87E2-62C934376644} = {D3FDD465-849C-4654-8643-24BA900D15F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE305C96-5766-41F0-A6EF-50FFDF9D5D45}
+	EndGlobalSection
+EndGlobal
